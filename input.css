@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(217, 219, 206, 0.976);
+}
+
+
+h2{
+    margin-top: 10px;
+    font-size: 24px;
+    letter-spacing: 1px;
+ 
+}
+h3{
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(93, 209, 213);
+}
+p{
+    max-width: 450px;
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+    font-size: 17px;
+
+}
+
+span {
+    display: flex;
+    width: 35px;
+    justify-content: space-between;  
+}
+
+span .fa{
+    cursor: pointer;
+}
+
+.fonts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: rgb(93, 209, 213);
+    width: 100%;
+}
+
+.btns{
+    margin-top: 8px;
+    color: rgb(93, 209, 213);
+    border: 1px solid rgb(93, 209, 213);
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img{
+    border: 2px solid gray;
+    border-radius: 50%;
+    height: 94px;
+    width: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: black;
+    
+}
+
+.img::after{
+    content: "";
+    height: 94px;
+    width: 94px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+    position: absolute;
+    bottom: -1px;
+    left: 5px;
+    z-index: -1;
+}
+
+.img::before{
+    content: "";
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:lightseagreen;
+    top: -4px;
+    left: -12px;
+}
+
+.fa-quote-right-alt{
+    position: absolute;
+    color: white;
+    top: 2px;
+    left: -3px;
+    z-index: 2;
+    font-size: 16px;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.profile{
+    max-width: 500px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgb(180, 172, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    z-index: 1000;
+ 
+}
+
+.heads{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+hr{
+  margin: 5px 0px 0px 10px;
+  width: 50px;
+  outline: none;
+  border: none;
+  height: 3px;
+  background-color: rgb(93, 209, 213);
+  border-radius: 50px;
+  text-align: center;
+}
