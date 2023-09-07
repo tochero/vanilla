@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxes{
+    width: 100px;
+    height: 100px;
+    border: 2px solid lime;
+    box-shadow: 2px 2px 3px black;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
